@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Visualizer msg="Locust Outbreak Visualization"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Visualizer from './components/Visualizer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Visualizer
   }
 }
 </script>
